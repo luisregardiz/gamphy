@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary:#00EAD3;
+    --secondary: #121013;
+    --shadowNeon: rgba(0, 234, 211, 0.4) 5px 5px, rgba(0, 234, 211, 0.3) 10px 10px, rgba(0, 234, 211, 0.2) 15px 15px;
+    --shadowNeonMinimal: rgba(0, 234, 211, 0.4) 5px 5px, rgba(0, 234, 211, 0.3) 10px 10px;
+    --shadowNeonPink: rgb(255, 68, 159, 0.4) 5px 5px, rgb(255, 68, 159, 0.3) 10px 10px, rgb(255, 68, 159, 0.2) 15px 15px;
+    --yellow: #F7FD04;
+    --pink: #ff449f;
+    --white: #FFF5B7;
+    --smooth: all ease-in-out 0.2s;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    background-color: var(--secondary) ;
+
+}
